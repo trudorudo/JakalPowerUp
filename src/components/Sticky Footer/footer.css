@@ -1,0 +1,97 @@
+.gridImages{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gridImages .box2{
+  border-left:1px solid blue;
+  border-right:1px solid blue;
+}
+
+.gridImages a{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.gridImages img{
+  height: 3rem;
+  width: 3rem;
+}
+
+footer{
+  background-color: rgb(221, 221, 221, 0.8);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Dropup Button */
+.dropbtn {
+  color: white;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+}
+
+.dropbtn img{
+  margin-top: 12px;
+}
+
+/* The container <div> - needed to position the dropup content */
+.dropup {
+  position: unset;
+  display: inline-block;
+}
+
+/* Border for menu bar */
+.borderline {
+    border-bottom: 1px solid rgb(92, 65, 65);
+}
+/* Dropup content (Hidden by Default) */
+.dropup-content {
+  display: none;
+  position: absolute;
+  bottom: 92px;
+  right: 0;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-flow: column nowrap;
+}
+
+/* Links inside the dropup */
+.dropup-content a {
+  color: red;
+  font-family: helvetica;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 1px 0 0 0;
+  padding: 10px 20px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row nowrap;
+  font-weight: 700;
+  line-height: 2em;
+}
+
+
+/* Change color of dropup links on hover */
+.dropup-content a:hover {background-color: #ddd}
+
+/* Show the dropup menu on hover */
+.dropup:hover .dropup-content {
+  display: flex;
+}
+
+.prof-img-wrap{
+  background-color: black;
+  color: white !important;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: none;
+}

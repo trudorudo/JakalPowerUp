@@ -1,0 +1,10 @@
+header {
+    background-color: rgb(221, 221, 221, 0.2);
+}
+
+.gif {
+    display: inline;
+    padding-left: 10px;
+    margin-right: -13px;
+    margin-bottom: -18px;
+}

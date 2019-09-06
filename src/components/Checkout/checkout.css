@@ -1,0 +1,91 @@
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 840px;
+    margin: 0 auto;
+    border: solid 2px black;
+    border-radius: 40px;
+    overflow: hidden;
+    
+}
+
+.checkout {
+    height: 2.5rem;
+    width: 10rem;
+    background-color:rgb(127, 219, 22);
+    color: white;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.checkout:hover {
+    background-color:red;
+    color: white;
+  }
+.button {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info h1{
+     color: red;
+    font-style: italic;
+}
+
+.info p{
+    font-style: italic;
+}
+
+.check {
+    height: 3rem;
+    vertical-align: middle;
+   
+   
+    
+}
+
+.cord {
+    display: inline;
+    padding-right: 4rem;
+    padding-left: 1rem;
+} 
+
+.details2 {
+   padding: 10px 0;
+}
+
+/* .detailheader {
+    text-align: center;
+} */
+
+ul {
+    padding: 0;
+}
+
+.list li {
+    margin-top: 22px;
+    list-style-type: circle;
+}
+ .battery {
+    transform: rotate(270deg);
+    height: 20rem;
+    margin-left: -4rem;
+} 
+
+.detailheader {
+    text-decoration: underline;
+}
+
+.battery {
+    height: 20rem;
+}
+
+.cables {
+    margin-top: 20px;
+}
